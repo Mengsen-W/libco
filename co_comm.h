@@ -26,4 +26,3 @@ class clsSmartLock {
  private:
   clsCoMutex* m_ptMutex;
 };
-
