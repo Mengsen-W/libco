@@ -76,27 +76,27 @@ include CMakeFiles/example_thread.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/example_thread.dir/flags.make
 
-CMakeFiles/example_thread.dir/example_thread.cpp.o: CMakeFiles/example_thread.dir/flags.make
-CMakeFiles/example_thread.dir/example_thread.cpp.o: ../example_thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_thread.dir/example_thread.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_thread.dir/example_thread.cpp.o -c /home/libco/example_thread.cpp
+CMakeFiles/example_thread.dir/example_thread.o: CMakeFiles/example_thread.dir/flags.make
+CMakeFiles/example_thread.dir/example_thread.o: ../example_thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_thread.dir/example_thread.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_thread.dir/example_thread.o -c /home/libco/example_thread.cpp
 
-CMakeFiles/example_thread.dir/example_thread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_thread.dir/example_thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_thread.cpp > CMakeFiles/example_thread.dir/example_thread.cpp.i
+CMakeFiles/example_thread.dir/example_thread.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_thread.dir/example_thread.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_thread.cpp > CMakeFiles/example_thread.dir/example_thread.i
 
-CMakeFiles/example_thread.dir/example_thread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_thread.dir/example_thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_thread.cpp -o CMakeFiles/example_thread.dir/example_thread.cpp.s
+CMakeFiles/example_thread.dir/example_thread.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_thread.dir/example_thread.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_thread.cpp -o CMakeFiles/example_thread.dir/example_thread.s
 
 # Object files for target example_thread
 example_thread_OBJECTS = \
-"CMakeFiles/example_thread.dir/example_thread.cpp.o"
+"CMakeFiles/example_thread.dir/example_thread.o"
 
 # External object files for target example_thread
 example_thread_EXTERNAL_OBJECTS =
 
-example_thread: CMakeFiles/example_thread.dir/example_thread.cpp.o
+example_thread: CMakeFiles/example_thread.dir/example_thread.o
 example_thread: CMakeFiles/example_thread.dir/build.make
 example_thread: libcolib.a
 example_thread: CMakeFiles/example_thread.dir/link.txt

@@ -272,408 +272,236 @@ colib_static/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/build
 .PHONY : colib_static/fast
 
-co_comm.o: co_comm.cpp.o
-
+# target to build an object file
+co_comm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_comm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_comm.o
 .PHONY : co_comm.o
 
-# target to build an object file
-co_comm.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_comm.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_comm.cpp.o
-.PHONY : co_comm.cpp.o
-
-co_comm.i: co_comm.cpp.i
-
+# target to preprocess a source file
+co_comm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_comm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_comm.i
 .PHONY : co_comm.i
 
-# target to preprocess a source file
-co_comm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_comm.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_comm.cpp.i
-.PHONY : co_comm.cpp.i
-
-co_comm.s: co_comm.cpp.s
-
+# target to generate assembly for a file
+co_comm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_comm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_comm.s
 .PHONY : co_comm.s
 
-# target to generate assembly for a file
-co_comm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_comm.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_comm.cpp.s
-.PHONY : co_comm.cpp.s
-
-co_epoll.o: co_epoll.cpp.o
-
+# target to build an object file
+co_epoll.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_epoll.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_epoll.o
 .PHONY : co_epoll.o
 
-# target to build an object file
-co_epoll.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_epoll.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_epoll.cpp.o
-.PHONY : co_epoll.cpp.o
-
-co_epoll.i: co_epoll.cpp.i
-
+# target to preprocess a source file
+co_epoll.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_epoll.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_epoll.i
 .PHONY : co_epoll.i
 
-# target to preprocess a source file
-co_epoll.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_epoll.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_epoll.cpp.i
-.PHONY : co_epoll.cpp.i
-
-co_epoll.s: co_epoll.cpp.s
-
+# target to generate assembly for a file
+co_epoll.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_epoll.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_epoll.s
 .PHONY : co_epoll.s
 
-# target to generate assembly for a file
-co_epoll.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_epoll.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_epoll.cpp.s
-.PHONY : co_epoll.cpp.s
-
-co_hook_sys_call.o: co_hook_sys_call.cpp.o
-
+# target to build an object file
+co_hook_sys_call.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_hook_sys_call.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_hook_sys_call.o
 .PHONY : co_hook_sys_call.o
 
-# target to build an object file
-co_hook_sys_call.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_hook_sys_call.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_hook_sys_call.cpp.o
-.PHONY : co_hook_sys_call.cpp.o
-
-co_hook_sys_call.i: co_hook_sys_call.cpp.i
-
+# target to preprocess a source file
+co_hook_sys_call.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_hook_sys_call.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_hook_sys_call.i
 .PHONY : co_hook_sys_call.i
 
-# target to preprocess a source file
-co_hook_sys_call.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_hook_sys_call.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_hook_sys_call.cpp.i
-.PHONY : co_hook_sys_call.cpp.i
-
-co_hook_sys_call.s: co_hook_sys_call.cpp.s
-
+# target to generate assembly for a file
+co_hook_sys_call.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_hook_sys_call.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_hook_sys_call.s
 .PHONY : co_hook_sys_call.s
 
-# target to generate assembly for a file
-co_hook_sys_call.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_hook_sys_call.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_hook_sys_call.cpp.s
-.PHONY : co_hook_sys_call.cpp.s
-
-co_routine.o: co_routine.cpp.o
-
+# target to build an object file
+co_routine.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_routine.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_routine.o
 .PHONY : co_routine.o
 
-# target to build an object file
-co_routine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_routine.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_routine.cpp.o
-.PHONY : co_routine.cpp.o
-
-co_routine.i: co_routine.cpp.i
-
+# target to preprocess a source file
+co_routine.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_routine.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_routine.i
 .PHONY : co_routine.i
 
-# target to preprocess a source file
-co_routine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_routine.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_routine.cpp.i
-.PHONY : co_routine.cpp.i
-
-co_routine.s: co_routine.cpp.s
-
+# target to generate assembly for a file
+co_routine.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_routine.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_routine.s
 .PHONY : co_routine.s
 
-# target to generate assembly for a file
-co_routine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/co_routine.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/co_routine.cpp.s
-.PHONY : co_routine.cpp.s
-
-coctx.o: coctx.cpp.o
-
+# target to build an object file
+coctx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/coctx.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/coctx.o
 .PHONY : coctx.o
 
-# target to build an object file
-coctx.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/coctx.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/coctx.cpp.o
-.PHONY : coctx.cpp.o
-
-coctx.i: coctx.cpp.i
-
+# target to preprocess a source file
+coctx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/coctx.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/coctx.i
 .PHONY : coctx.i
 
-# target to preprocess a source file
-coctx.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/coctx.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/coctx.cpp.i
-.PHONY : coctx.cpp.i
-
-coctx.s: coctx.cpp.s
-
+# target to generate assembly for a file
+coctx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/coctx.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/coctx.s
 .PHONY : coctx.s
 
-# target to generate assembly for a file
-coctx.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/coctx.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/coctx.cpp.s
-.PHONY : coctx.cpp.s
-
-coctx_swap.o: coctx_swap.S.o
-
+# target to build an object file
+coctx_swap.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/coctx_swap.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/coctx_swap.o
 .PHONY : coctx_swap.o
 
 # target to build an object file
-coctx_swap.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_shared.dir/build.make CMakeFiles/colib_shared.dir/coctx_swap.S.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/colib_static.dir/build.make CMakeFiles/colib_static.dir/coctx_swap.S.o
-.PHONY : coctx_swap.S.o
-
-example_closure.o: example_closure.cpp.o
-
+example_closure.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_closure.dir/build.make CMakeFiles/example_closure.dir/example_closure.o
 .PHONY : example_closure.o
 
-# target to build an object file
-example_closure.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_closure.dir/build.make CMakeFiles/example_closure.dir/example_closure.cpp.o
-.PHONY : example_closure.cpp.o
-
-example_closure.i: example_closure.cpp.i
-
+# target to preprocess a source file
+example_closure.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_closure.dir/build.make CMakeFiles/example_closure.dir/example_closure.i
 .PHONY : example_closure.i
 
-# target to preprocess a source file
-example_closure.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_closure.dir/build.make CMakeFiles/example_closure.dir/example_closure.cpp.i
-.PHONY : example_closure.cpp.i
-
-example_closure.s: example_closure.cpp.s
-
+# target to generate assembly for a file
+example_closure.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_closure.dir/build.make CMakeFiles/example_closure.dir/example_closure.s
 .PHONY : example_closure.s
 
-# target to generate assembly for a file
-example_closure.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_closure.dir/build.make CMakeFiles/example_closure.dir/example_closure.cpp.s
-.PHONY : example_closure.cpp.s
-
-example_cond.o: example_cond.cpp.o
-
+# target to build an object file
+example_cond.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_cond.dir/build.make CMakeFiles/example_cond.dir/example_cond.o
 .PHONY : example_cond.o
 
-# target to build an object file
-example_cond.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_cond.dir/build.make CMakeFiles/example_cond.dir/example_cond.cpp.o
-.PHONY : example_cond.cpp.o
-
-example_cond.i: example_cond.cpp.i
-
+# target to preprocess a source file
+example_cond.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_cond.dir/build.make CMakeFiles/example_cond.dir/example_cond.i
 .PHONY : example_cond.i
 
-# target to preprocess a source file
-example_cond.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_cond.dir/build.make CMakeFiles/example_cond.dir/example_cond.cpp.i
-.PHONY : example_cond.cpp.i
-
-example_cond.s: example_cond.cpp.s
-
+# target to generate assembly for a file
+example_cond.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_cond.dir/build.make CMakeFiles/example_cond.dir/example_cond.s
 .PHONY : example_cond.s
 
-# target to generate assembly for a file
-example_cond.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_cond.dir/build.make CMakeFiles/example_cond.dir/example_cond.cpp.s
-.PHONY : example_cond.cpp.s
-
-example_copystack.o: example_copystack.cpp.o
-
+# target to build an object file
+example_copystack.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_copystack.dir/build.make CMakeFiles/example_copystack.dir/example_copystack.o
 .PHONY : example_copystack.o
 
-# target to build an object file
-example_copystack.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_copystack.dir/build.make CMakeFiles/example_copystack.dir/example_copystack.cpp.o
-.PHONY : example_copystack.cpp.o
-
-example_copystack.i: example_copystack.cpp.i
-
+# target to preprocess a source file
+example_copystack.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_copystack.dir/build.make CMakeFiles/example_copystack.dir/example_copystack.i
 .PHONY : example_copystack.i
 
-# target to preprocess a source file
-example_copystack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_copystack.dir/build.make CMakeFiles/example_copystack.dir/example_copystack.cpp.i
-.PHONY : example_copystack.cpp.i
-
-example_copystack.s: example_copystack.cpp.s
-
+# target to generate assembly for a file
+example_copystack.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_copystack.dir/build.make CMakeFiles/example_copystack.dir/example_copystack.s
 .PHONY : example_copystack.s
 
-# target to generate assembly for a file
-example_copystack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_copystack.dir/build.make CMakeFiles/example_copystack.dir/example_copystack.cpp.s
-.PHONY : example_copystack.cpp.s
-
-example_echocli.o: example_echocli.cpp.o
-
+# target to build an object file
+example_echocli.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_echocli.dir/build.make CMakeFiles/example_echocli.dir/example_echocli.o
 .PHONY : example_echocli.o
 
-# target to build an object file
-example_echocli.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_echocli.dir/build.make CMakeFiles/example_echocli.dir/example_echocli.cpp.o
-.PHONY : example_echocli.cpp.o
-
-example_echocli.i: example_echocli.cpp.i
-
+# target to preprocess a source file
+example_echocli.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_echocli.dir/build.make CMakeFiles/example_echocli.dir/example_echocli.i
 .PHONY : example_echocli.i
 
-# target to preprocess a source file
-example_echocli.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_echocli.dir/build.make CMakeFiles/example_echocli.dir/example_echocli.cpp.i
-.PHONY : example_echocli.cpp.i
-
-example_echocli.s: example_echocli.cpp.s
-
+# target to generate assembly for a file
+example_echocli.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_echocli.dir/build.make CMakeFiles/example_echocli.dir/example_echocli.s
 .PHONY : example_echocli.s
 
-# target to generate assembly for a file
-example_echocli.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_echocli.dir/build.make CMakeFiles/example_echocli.dir/example_echocli.cpp.s
-.PHONY : example_echocli.cpp.s
-
-example_echosvr.o: example_echosvr.cpp.o
-
+# target to build an object file
+example_echosvr.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_echosvr.dir/build.make CMakeFiles/example_echosvr.dir/example_echosvr.o
 .PHONY : example_echosvr.o
 
-# target to build an object file
-example_echosvr.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_echosvr.dir/build.make CMakeFiles/example_echosvr.dir/example_echosvr.cpp.o
-.PHONY : example_echosvr.cpp.o
-
-example_echosvr.i: example_echosvr.cpp.i
-
+# target to preprocess a source file
+example_echosvr.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_echosvr.dir/build.make CMakeFiles/example_echosvr.dir/example_echosvr.i
 .PHONY : example_echosvr.i
 
-# target to preprocess a source file
-example_echosvr.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_echosvr.dir/build.make CMakeFiles/example_echosvr.dir/example_echosvr.cpp.i
-.PHONY : example_echosvr.cpp.i
-
-example_echosvr.s: example_echosvr.cpp.s
-
+# target to generate assembly for a file
+example_echosvr.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_echosvr.dir/build.make CMakeFiles/example_echosvr.dir/example_echosvr.s
 .PHONY : example_echosvr.s
 
-# target to generate assembly for a file
-example_echosvr.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_echosvr.dir/build.make CMakeFiles/example_echosvr.dir/example_echosvr.cpp.s
-.PHONY : example_echosvr.cpp.s
-
-example_poll.o: example_poll.cpp.o
-
+# target to build an object file
+example_poll.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_poll.dir/build.make CMakeFiles/example_poll.dir/example_poll.o
 .PHONY : example_poll.o
 
-# target to build an object file
-example_poll.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_poll.dir/build.make CMakeFiles/example_poll.dir/example_poll.cpp.o
-.PHONY : example_poll.cpp.o
-
-example_poll.i: example_poll.cpp.i
-
+# target to preprocess a source file
+example_poll.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_poll.dir/build.make CMakeFiles/example_poll.dir/example_poll.i
 .PHONY : example_poll.i
 
-# target to preprocess a source file
-example_poll.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_poll.dir/build.make CMakeFiles/example_poll.dir/example_poll.cpp.i
-.PHONY : example_poll.cpp.i
-
-example_poll.s: example_poll.cpp.s
-
+# target to generate assembly for a file
+example_poll.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_poll.dir/build.make CMakeFiles/example_poll.dir/example_poll.s
 .PHONY : example_poll.s
 
-# target to generate assembly for a file
-example_poll.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_poll.dir/build.make CMakeFiles/example_poll.dir/example_poll.cpp.s
-.PHONY : example_poll.cpp.s
-
-example_setenv.o: example_setenv.cpp.o
-
+# target to build an object file
+example_setenv.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_setenv.dir/build.make CMakeFiles/example_setenv.dir/example_setenv.o
 .PHONY : example_setenv.o
 
-# target to build an object file
-example_setenv.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_setenv.dir/build.make CMakeFiles/example_setenv.dir/example_setenv.cpp.o
-.PHONY : example_setenv.cpp.o
-
-example_setenv.i: example_setenv.cpp.i
-
+# target to preprocess a source file
+example_setenv.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_setenv.dir/build.make CMakeFiles/example_setenv.dir/example_setenv.i
 .PHONY : example_setenv.i
 
-# target to preprocess a source file
-example_setenv.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_setenv.dir/build.make CMakeFiles/example_setenv.dir/example_setenv.cpp.i
-.PHONY : example_setenv.cpp.i
-
-example_setenv.s: example_setenv.cpp.s
-
+# target to generate assembly for a file
+example_setenv.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_setenv.dir/build.make CMakeFiles/example_setenv.dir/example_setenv.s
 .PHONY : example_setenv.s
 
-# target to generate assembly for a file
-example_setenv.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_setenv.dir/build.make CMakeFiles/example_setenv.dir/example_setenv.cpp.s
-.PHONY : example_setenv.cpp.s
-
-example_specific.o: example_specific.cpp.o
-
+# target to build an object file
+example_specific.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_specific.dir/build.make CMakeFiles/example_specific.dir/example_specific.o
 .PHONY : example_specific.o
 
-# target to build an object file
-example_specific.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_specific.dir/build.make CMakeFiles/example_specific.dir/example_specific.cpp.o
-.PHONY : example_specific.cpp.o
-
-example_specific.i: example_specific.cpp.i
-
+# target to preprocess a source file
+example_specific.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_specific.dir/build.make CMakeFiles/example_specific.dir/example_specific.i
 .PHONY : example_specific.i
 
-# target to preprocess a source file
-example_specific.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_specific.dir/build.make CMakeFiles/example_specific.dir/example_specific.cpp.i
-.PHONY : example_specific.cpp.i
-
-example_specific.s: example_specific.cpp.s
-
+# target to generate assembly for a file
+example_specific.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_specific.dir/build.make CMakeFiles/example_specific.dir/example_specific.s
 .PHONY : example_specific.s
 
-# target to generate assembly for a file
-example_specific.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_specific.dir/build.make CMakeFiles/example_specific.dir/example_specific.cpp.s
-.PHONY : example_specific.cpp.s
-
-example_thread.o: example_thread.cpp.o
-
+# target to build an object file
+example_thread.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_thread.dir/build.make CMakeFiles/example_thread.dir/example_thread.o
 .PHONY : example_thread.o
 
-# target to build an object file
-example_thread.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_thread.dir/build.make CMakeFiles/example_thread.dir/example_thread.cpp.o
-.PHONY : example_thread.cpp.o
-
-example_thread.i: example_thread.cpp.i
-
+# target to preprocess a source file
+example_thread.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_thread.dir/build.make CMakeFiles/example_thread.dir/example_thread.i
 .PHONY : example_thread.i
 
-# target to preprocess a source file
-example_thread.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_thread.dir/build.make CMakeFiles/example_thread.dir/example_thread.cpp.i
-.PHONY : example_thread.cpp.i
-
-example_thread.s: example_thread.cpp.s
-
-.PHONY : example_thread.s
-
 # target to generate assembly for a file
-example_thread.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_thread.dir/build.make CMakeFiles/example_thread.dir/example_thread.cpp.s
-.PHONY : example_thread.cpp.s
+example_thread.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example_thread.dir/build.make CMakeFiles/example_thread.dir/example_thread.s
+.PHONY : example_thread.s
 
 # Help Target
 help:

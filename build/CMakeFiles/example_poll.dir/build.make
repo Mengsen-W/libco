@@ -76,27 +76,27 @@ include CMakeFiles/example_poll.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/example_poll.dir/flags.make
 
-CMakeFiles/example_poll.dir/example_poll.cpp.o: CMakeFiles/example_poll.dir/flags.make
-CMakeFiles/example_poll.dir/example_poll.cpp.o: ../example_poll.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_poll.dir/example_poll.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_poll.dir/example_poll.cpp.o -c /home/libco/example_poll.cpp
+CMakeFiles/example_poll.dir/example_poll.o: CMakeFiles/example_poll.dir/flags.make
+CMakeFiles/example_poll.dir/example_poll.o: ../example_poll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_poll.dir/example_poll.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_poll.dir/example_poll.o -c /home/libco/example_poll.cpp
 
-CMakeFiles/example_poll.dir/example_poll.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_poll.dir/example_poll.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_poll.cpp > CMakeFiles/example_poll.dir/example_poll.cpp.i
+CMakeFiles/example_poll.dir/example_poll.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_poll.dir/example_poll.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_poll.cpp > CMakeFiles/example_poll.dir/example_poll.i
 
-CMakeFiles/example_poll.dir/example_poll.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_poll.dir/example_poll.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_poll.cpp -o CMakeFiles/example_poll.dir/example_poll.cpp.s
+CMakeFiles/example_poll.dir/example_poll.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_poll.dir/example_poll.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_poll.cpp -o CMakeFiles/example_poll.dir/example_poll.s
 
 # Object files for target example_poll
 example_poll_OBJECTS = \
-"CMakeFiles/example_poll.dir/example_poll.cpp.o"
+"CMakeFiles/example_poll.dir/example_poll.o"
 
 # External object files for target example_poll
 example_poll_EXTERNAL_OBJECTS =
 
-example_poll: CMakeFiles/example_poll.dir/example_poll.cpp.o
+example_poll: CMakeFiles/example_poll.dir/example_poll.o
 example_poll: CMakeFiles/example_poll.dir/build.make
 example_poll: libcolib.a
 example_poll: CMakeFiles/example_poll.dir/link.txt

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/example_closure.dir/example_closure.cpp.o"
+  "CMakeFiles/example_closure.dir/example_closure.o"
   "example_closure"
   "example_closure.pdb"
 )

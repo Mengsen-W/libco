@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/libco/example_echocli.cpp" "/home/libco/build/CMakeFiles/example_echocli.dir/example_echocli.cpp.o"
+  "/home/libco/example_echocli.cpp" "/home/libco/build/CMakeFiles/example_echocli.dir/example_echocli.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

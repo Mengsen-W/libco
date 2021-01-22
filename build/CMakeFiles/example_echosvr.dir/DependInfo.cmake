@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/libco/example_echosvr.cpp" "/home/libco/build/CMakeFiles/example_echosvr.dir/example_echosvr.cpp.o"
+  "/home/libco/example_echosvr.cpp" "/home/libco/build/CMakeFiles/example_echosvr.dir/example_echosvr.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

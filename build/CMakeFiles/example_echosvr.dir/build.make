@@ -76,27 +76,27 @@ include CMakeFiles/example_echosvr.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/example_echosvr.dir/flags.make
 
-CMakeFiles/example_echosvr.dir/example_echosvr.cpp.o: CMakeFiles/example_echosvr.dir/flags.make
-CMakeFiles/example_echosvr.dir/example_echosvr.cpp.o: ../example_echosvr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_echosvr.dir/example_echosvr.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_echosvr.dir/example_echosvr.cpp.o -c /home/libco/example_echosvr.cpp
+CMakeFiles/example_echosvr.dir/example_echosvr.o: CMakeFiles/example_echosvr.dir/flags.make
+CMakeFiles/example_echosvr.dir/example_echosvr.o: ../example_echosvr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_echosvr.dir/example_echosvr.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_echosvr.dir/example_echosvr.o -c /home/libco/example_echosvr.cpp
 
-CMakeFiles/example_echosvr.dir/example_echosvr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_echosvr.dir/example_echosvr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_echosvr.cpp > CMakeFiles/example_echosvr.dir/example_echosvr.cpp.i
+CMakeFiles/example_echosvr.dir/example_echosvr.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_echosvr.dir/example_echosvr.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_echosvr.cpp > CMakeFiles/example_echosvr.dir/example_echosvr.i
 
-CMakeFiles/example_echosvr.dir/example_echosvr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_echosvr.dir/example_echosvr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_echosvr.cpp -o CMakeFiles/example_echosvr.dir/example_echosvr.cpp.s
+CMakeFiles/example_echosvr.dir/example_echosvr.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_echosvr.dir/example_echosvr.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_echosvr.cpp -o CMakeFiles/example_echosvr.dir/example_echosvr.s
 
 # Object files for target example_echosvr
 example_echosvr_OBJECTS = \
-"CMakeFiles/example_echosvr.dir/example_echosvr.cpp.o"
+"CMakeFiles/example_echosvr.dir/example_echosvr.o"
 
 # External object files for target example_echosvr
 example_echosvr_EXTERNAL_OBJECTS =
 
-example_echosvr: CMakeFiles/example_echosvr.dir/example_echosvr.cpp.o
+example_echosvr: CMakeFiles/example_echosvr.dir/example_echosvr.o
 example_echosvr: CMakeFiles/example_echosvr.dir/build.make
 example_echosvr: libcolib.a
 example_echosvr: CMakeFiles/example_echosvr.dir/link.txt

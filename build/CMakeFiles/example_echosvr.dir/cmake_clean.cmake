@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/example_echosvr.dir/example_echosvr.cpp.o"
+  "CMakeFiles/example_echosvr.dir/example_echosvr.o"
   "example_echosvr"
   "example_echosvr.pdb"
 )

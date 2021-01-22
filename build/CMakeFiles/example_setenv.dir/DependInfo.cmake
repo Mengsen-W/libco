@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/libco/example_setenv.cpp" "/home/libco/build/CMakeFiles/example_setenv.dir/example_setenv.cpp.o"
+  "/home/libco/example_setenv.cpp" "/home/libco/build/CMakeFiles/example_setenv.dir/example_setenv.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -76,27 +76,27 @@ include CMakeFiles/example_closure.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/example_closure.dir/flags.make
 
-CMakeFiles/example_closure.dir/example_closure.cpp.o: CMakeFiles/example_closure.dir/flags.make
-CMakeFiles/example_closure.dir/example_closure.cpp.o: ../example_closure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_closure.dir/example_closure.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_closure.dir/example_closure.cpp.o -c /home/libco/example_closure.cpp
+CMakeFiles/example_closure.dir/example_closure.o: CMakeFiles/example_closure.dir/flags.make
+CMakeFiles/example_closure.dir/example_closure.o: ../example_closure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_closure.dir/example_closure.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_closure.dir/example_closure.o -c /home/libco/example_closure.cpp
 
-CMakeFiles/example_closure.dir/example_closure.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_closure.dir/example_closure.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_closure.cpp > CMakeFiles/example_closure.dir/example_closure.cpp.i
+CMakeFiles/example_closure.dir/example_closure.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_closure.dir/example_closure.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_closure.cpp > CMakeFiles/example_closure.dir/example_closure.i
 
-CMakeFiles/example_closure.dir/example_closure.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_closure.dir/example_closure.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_closure.cpp -o CMakeFiles/example_closure.dir/example_closure.cpp.s
+CMakeFiles/example_closure.dir/example_closure.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_closure.dir/example_closure.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_closure.cpp -o CMakeFiles/example_closure.dir/example_closure.s
 
 # Object files for target example_closure
 example_closure_OBJECTS = \
-"CMakeFiles/example_closure.dir/example_closure.cpp.o"
+"CMakeFiles/example_closure.dir/example_closure.o"
 
 # External object files for target example_closure
 example_closure_EXTERNAL_OBJECTS =
 
-example_closure: CMakeFiles/example_closure.dir/example_closure.cpp.o
+example_closure: CMakeFiles/example_closure.dir/example_closure.o
 example_closure: CMakeFiles/example_closure.dir/build.make
 example_closure: libcolib.a
 example_closure: CMakeFiles/example_closure.dir/link.txt

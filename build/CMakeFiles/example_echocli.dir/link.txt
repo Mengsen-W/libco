@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/example_echocli.dir/example_echocli.cpp.o -o example_echocli  libcolib.a -lpthread -ldl 
+/usr/bin/c++ -rdynamic CMakeFiles/example_echocli.dir/example_echocli.o -o example_echocli   -L/home/libco/build  libcolib.a -lpthread -ldl 

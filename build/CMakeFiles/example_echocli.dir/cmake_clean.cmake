@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/example_echocli.dir/example_echocli.cpp.o"
+  "CMakeFiles/example_echocli.dir/example_echocli.o"
   "example_echocli"
   "example_echocli.pdb"
 )

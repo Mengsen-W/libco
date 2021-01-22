@@ -76,27 +76,27 @@ include CMakeFiles/example_specific.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/example_specific.dir/flags.make
 
-CMakeFiles/example_specific.dir/example_specific.cpp.o: CMakeFiles/example_specific.dir/flags.make
-CMakeFiles/example_specific.dir/example_specific.cpp.o: ../example_specific.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_specific.dir/example_specific.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_specific.dir/example_specific.cpp.o -c /home/libco/example_specific.cpp
+CMakeFiles/example_specific.dir/example_specific.o: CMakeFiles/example_specific.dir/flags.make
+CMakeFiles/example_specific.dir/example_specific.o: ../example_specific.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_specific.dir/example_specific.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_specific.dir/example_specific.o -c /home/libco/example_specific.cpp
 
-CMakeFiles/example_specific.dir/example_specific.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_specific.dir/example_specific.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_specific.cpp > CMakeFiles/example_specific.dir/example_specific.cpp.i
+CMakeFiles/example_specific.dir/example_specific.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_specific.dir/example_specific.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_specific.cpp > CMakeFiles/example_specific.dir/example_specific.i
 
-CMakeFiles/example_specific.dir/example_specific.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_specific.dir/example_specific.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_specific.cpp -o CMakeFiles/example_specific.dir/example_specific.cpp.s
+CMakeFiles/example_specific.dir/example_specific.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_specific.dir/example_specific.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_specific.cpp -o CMakeFiles/example_specific.dir/example_specific.s
 
 # Object files for target example_specific
 example_specific_OBJECTS = \
-"CMakeFiles/example_specific.dir/example_specific.cpp.o"
+"CMakeFiles/example_specific.dir/example_specific.o"
 
 # External object files for target example_specific
 example_specific_EXTERNAL_OBJECTS =
 
-example_specific: CMakeFiles/example_specific.dir/example_specific.cpp.o
+example_specific: CMakeFiles/example_specific.dir/example_specific.o
 example_specific: CMakeFiles/example_specific.dir/build.make
 example_specific: libcolib.a
 example_specific: CMakeFiles/example_specific.dir/link.txt

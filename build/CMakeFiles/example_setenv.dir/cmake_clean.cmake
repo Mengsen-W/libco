@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/example_setenv.dir/example_setenv.cpp.o"
+  "CMakeFiles/example_setenv.dir/example_setenv.o"
   "example_setenv"
   "example_setenv.pdb"
 )

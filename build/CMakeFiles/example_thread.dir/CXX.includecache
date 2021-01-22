@@ -7,11 +7,11 @@
 #IncludeRegexTransform: 
 
 /home/libco/co_routine.h
+pthread.h
+-
 stdint.h
 -
 sys/poll.h
--
-pthread.h
 -
 
 /home/libco/co_routine_inner.h
@@ -25,18 +25,18 @@ stdlib.h
 -
 
 /home/libco/example_thread.cpp
-co_routine.h
-/home/libco/co_routine.h
-co_routine_inner.h
-/home/libco/co_routine_inner.h
+pthread.h
+-
+stdint.h
+-
 stdio.h
 -
 stdlib.h
 -
-stdint.h
--
-pthread.h
--
 unistd.h
 -
+co_routine.h
+/home/libco/co_routine.h
+co_routine_inner.h
+/home/libco/co_routine_inner.h
 

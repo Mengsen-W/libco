@@ -76,27 +76,27 @@ include CMakeFiles/example_copystack.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/example_copystack.dir/flags.make
 
-CMakeFiles/example_copystack.dir/example_copystack.cpp.o: CMakeFiles/example_copystack.dir/flags.make
-CMakeFiles/example_copystack.dir/example_copystack.cpp.o: ../example_copystack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_copystack.dir/example_copystack.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_copystack.dir/example_copystack.cpp.o -c /home/libco/example_copystack.cpp
+CMakeFiles/example_copystack.dir/example_copystack.o: CMakeFiles/example_copystack.dir/flags.make
+CMakeFiles/example_copystack.dir/example_copystack.o: ../example_copystack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_copystack.dir/example_copystack.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_copystack.dir/example_copystack.o -c /home/libco/example_copystack.cpp
 
-CMakeFiles/example_copystack.dir/example_copystack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_copystack.dir/example_copystack.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_copystack.cpp > CMakeFiles/example_copystack.dir/example_copystack.cpp.i
+CMakeFiles/example_copystack.dir/example_copystack.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_copystack.dir/example_copystack.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_copystack.cpp > CMakeFiles/example_copystack.dir/example_copystack.i
 
-CMakeFiles/example_copystack.dir/example_copystack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_copystack.dir/example_copystack.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_copystack.cpp -o CMakeFiles/example_copystack.dir/example_copystack.cpp.s
+CMakeFiles/example_copystack.dir/example_copystack.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_copystack.dir/example_copystack.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_copystack.cpp -o CMakeFiles/example_copystack.dir/example_copystack.s
 
 # Object files for target example_copystack
 example_copystack_OBJECTS = \
-"CMakeFiles/example_copystack.dir/example_copystack.cpp.o"
+"CMakeFiles/example_copystack.dir/example_copystack.o"
 
 # External object files for target example_copystack
 example_copystack_EXTERNAL_OBJECTS =
 
-example_copystack: CMakeFiles/example_copystack.dir/example_copystack.cpp.o
+example_copystack: CMakeFiles/example_copystack.dir/example_copystack.o
 example_copystack: CMakeFiles/example_copystack.dir/build.make
 example_copystack: libcolib.a
 example_copystack: CMakeFiles/example_copystack.dir/link.txt

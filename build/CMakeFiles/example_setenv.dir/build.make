@@ -76,27 +76,27 @@ include CMakeFiles/example_setenv.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/example_setenv.dir/flags.make
 
-CMakeFiles/example_setenv.dir/example_setenv.cpp.o: CMakeFiles/example_setenv.dir/flags.make
-CMakeFiles/example_setenv.dir/example_setenv.cpp.o: ../example_setenv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_setenv.dir/example_setenv.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_setenv.dir/example_setenv.cpp.o -c /home/libco/example_setenv.cpp
+CMakeFiles/example_setenv.dir/example_setenv.o: CMakeFiles/example_setenv.dir/flags.make
+CMakeFiles/example_setenv.dir/example_setenv.o: ../example_setenv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_setenv.dir/example_setenv.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_setenv.dir/example_setenv.o -c /home/libco/example_setenv.cpp
 
-CMakeFiles/example_setenv.dir/example_setenv.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_setenv.dir/example_setenv.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_setenv.cpp > CMakeFiles/example_setenv.dir/example_setenv.cpp.i
+CMakeFiles/example_setenv.dir/example_setenv.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_setenv.dir/example_setenv.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_setenv.cpp > CMakeFiles/example_setenv.dir/example_setenv.i
 
-CMakeFiles/example_setenv.dir/example_setenv.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_setenv.dir/example_setenv.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_setenv.cpp -o CMakeFiles/example_setenv.dir/example_setenv.cpp.s
+CMakeFiles/example_setenv.dir/example_setenv.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_setenv.dir/example_setenv.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_setenv.cpp -o CMakeFiles/example_setenv.dir/example_setenv.s
 
 # Object files for target example_setenv
 example_setenv_OBJECTS = \
-"CMakeFiles/example_setenv.dir/example_setenv.cpp.o"
+"CMakeFiles/example_setenv.dir/example_setenv.o"
 
 # External object files for target example_setenv
 example_setenv_EXTERNAL_OBJECTS =
 
-example_setenv: CMakeFiles/example_setenv.dir/example_setenv.cpp.o
+example_setenv: CMakeFiles/example_setenv.dir/example_setenv.o
 example_setenv: CMakeFiles/example_setenv.dir/build.make
 example_setenv: libcolib.a
 example_setenv: CMakeFiles/example_setenv.dir/link.txt

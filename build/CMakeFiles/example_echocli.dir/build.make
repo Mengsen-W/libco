@@ -76,27 +76,27 @@ include CMakeFiles/example_echocli.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/example_echocli.dir/flags.make
 
-CMakeFiles/example_echocli.dir/example_echocli.cpp.o: CMakeFiles/example_echocli.dir/flags.make
-CMakeFiles/example_echocli.dir/example_echocli.cpp.o: ../example_echocli.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_echocli.dir/example_echocli.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_echocli.dir/example_echocli.cpp.o -c /home/libco/example_echocli.cpp
+CMakeFiles/example_echocli.dir/example_echocli.o: CMakeFiles/example_echocli.dir/flags.make
+CMakeFiles/example_echocli.dir/example_echocli.o: ../example_echocli.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_echocli.dir/example_echocli.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_echocli.dir/example_echocli.o -c /home/libco/example_echocli.cpp
 
-CMakeFiles/example_echocli.dir/example_echocli.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_echocli.dir/example_echocli.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_echocli.cpp > CMakeFiles/example_echocli.dir/example_echocli.cpp.i
+CMakeFiles/example_echocli.dir/example_echocli.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_echocli.dir/example_echocli.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_echocli.cpp > CMakeFiles/example_echocli.dir/example_echocli.i
 
-CMakeFiles/example_echocli.dir/example_echocli.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_echocli.dir/example_echocli.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_echocli.cpp -o CMakeFiles/example_echocli.dir/example_echocli.cpp.s
+CMakeFiles/example_echocli.dir/example_echocli.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_echocli.dir/example_echocli.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_echocli.cpp -o CMakeFiles/example_echocli.dir/example_echocli.s
 
 # Object files for target example_echocli
 example_echocli_OBJECTS = \
-"CMakeFiles/example_echocli.dir/example_echocli.cpp.o"
+"CMakeFiles/example_echocli.dir/example_echocli.o"
 
 # External object files for target example_echocli
 example_echocli_EXTERNAL_OBJECTS =
 
-example_echocli: CMakeFiles/example_echocli.dir/example_echocli.cpp.o
+example_echocli: CMakeFiles/example_echocli.dir/example_echocli.o
 example_echocli: CMakeFiles/example_echocli.dir/build.make
 example_echocli: libcolib.a
 example_echocli: CMakeFiles/example_echocli.dir/link.txt

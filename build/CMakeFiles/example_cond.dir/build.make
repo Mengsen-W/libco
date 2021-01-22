@@ -76,27 +76,27 @@ include CMakeFiles/example_cond.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/example_cond.dir/flags.make
 
-CMakeFiles/example_cond.dir/example_cond.cpp.o: CMakeFiles/example_cond.dir/flags.make
-CMakeFiles/example_cond.dir/example_cond.cpp.o: ../example_cond.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_cond.dir/example_cond.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_cond.dir/example_cond.cpp.o -c /home/libco/example_cond.cpp
+CMakeFiles/example_cond.dir/example_cond.o: CMakeFiles/example_cond.dir/flags.make
+CMakeFiles/example_cond.dir/example_cond.o: ../example_cond.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/libco/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_cond.dir/example_cond.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_cond.dir/example_cond.o -c /home/libco/example_cond.cpp
 
-CMakeFiles/example_cond.dir/example_cond.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_cond.dir/example_cond.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_cond.cpp > CMakeFiles/example_cond.dir/example_cond.cpp.i
+CMakeFiles/example_cond.dir/example_cond.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_cond.dir/example_cond.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/libco/example_cond.cpp > CMakeFiles/example_cond.dir/example_cond.i
 
-CMakeFiles/example_cond.dir/example_cond.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_cond.dir/example_cond.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_cond.cpp -o CMakeFiles/example_cond.dir/example_cond.cpp.s
+CMakeFiles/example_cond.dir/example_cond.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_cond.dir/example_cond.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/libco/example_cond.cpp -o CMakeFiles/example_cond.dir/example_cond.s
 
 # Object files for target example_cond
 example_cond_OBJECTS = \
-"CMakeFiles/example_cond.dir/example_cond.cpp.o"
+"CMakeFiles/example_cond.dir/example_cond.o"
 
 # External object files for target example_cond
 example_cond_EXTERNAL_OBJECTS =
 
-example_cond: CMakeFiles/example_cond.dir/example_cond.cpp.o
+example_cond: CMakeFiles/example_cond.dir/example_cond.o
 example_cond: CMakeFiles/example_cond.dir/build.make
 example_cond: libcolib.a
 example_cond: CMakeFiles/example_cond.dir/link.txt
