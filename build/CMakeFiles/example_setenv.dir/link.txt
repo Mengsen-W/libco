@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/example_setenv.dir/example_setenv.o -o example_setenv   -L/home/libco/build  libcolib.a -lpthread -ldl 

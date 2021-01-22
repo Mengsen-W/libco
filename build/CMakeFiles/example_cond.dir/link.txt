@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/example_cond.dir/example_cond.o -o example_cond   -L/home/libco/build  libcolib.a -lpthread -ldl 
